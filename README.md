@@ -14,10 +14,11 @@ This repository contains an integrated tool designed for detecting and analyzing
 
 ### 2. `Dummy_attacks` - Basic Attack Scenario
 - Simulates **simple manipulation** of the system measurements.
-- Specifically, the **active power measurement of LV0102** is altered by multiplying the measured value by **1.02** (i.e., a 2% increase).
+- Specifically, the **active power measurement of LV0102** is altered by multiplying the measured value by **1.2** (i.e., a 20% increase).
 - Useful for testing basic anomaly detection capabilities.
 
 ### 3. `Smart_attacks` - Advanced Attack Scenario
+- The **voltage measurement at node LV0102** is altered by multiplying the measured value by **0.98** (i.e., a 2% decrease).
 - Involves more sophisticated attacks where multiple measurements are manipulated to evade detection.
 - The following measurements are modified:
   - **Measurement 5**: `Q_LV0102` (Reactive power at LV0102)
